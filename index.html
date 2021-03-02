@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Calculator</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id ="parent">
+  <h1 id = "calcDisplay">0</h1>
+  <table class="pure-table">
+    <tr>
+      <th class = "number" onclick="del()">DEL</th>
+      <th class = "number" onclick="addChar(' ( ')">(</th>
+      <th class = "number" onclick="addChar(' ) ')">)</th>
+      <th class = "number" onclick="addChar(' ÷ ')">÷</th>
+    </tr>
+    <tr>
+      <td class = "number" onclick="addChar(7)">7</td>
+      <td class = "number" onclick="addChar(8)">8</td>
+      <td class = "number" onclick="addChar(9)">9</td>
+      <td class = "number" onclick="addChar(' * ')">*</td>
+    </tr>
+    <tr>
+      <td class = "number" onclick="addChar(4)">4</td>
+      <td class = "number" onclick="addChar(5)">5</td>
+      <td class = "number" onclick="addChar(6)">6</td>
+      <td class = "number" onclick="addChar(' - ')">-</td>
+    </tr>
+    <tr>
+      <td class = "number" onclick="addChar(1)">1</td>
+      <td class = "number" onclick="addChar(2)">2</td>
+      <td class = "number" onclick="addChar(3)">3</td>
+      <td class = "number" onclick="addChar(' + ')">+</td>
+    </tr>
+    <tr>
+      <td class = "number" onclick="addChar('-')" >( - )</td>
+      <td class = "number" onclick="addChar(0)">0</td>
+      <td class = "number" onclick="addChar('.')">.</td>
+      <td class = "number" onclick="equal()">=</td>
+    </tr>
+  </table>
+
+  <h2 id="calcHeader">Previous Calculations</h2>
+  
+  <ol id = "calculations">
+    <li>ds</li>
+  </ol>
+
+  <h2 id="clearButton"><span onclick="clearData()">  &nbsp;CLEAR&nbsp;  </span></h2>
+
+  <script src="client-side.js"></script>
+  <script src="calculate.js"></script>
+  <script src="controller.js"></script>
+</body>
+</html>
