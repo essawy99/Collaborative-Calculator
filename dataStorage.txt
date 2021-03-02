@@ -1,0 +1,1 @@
+[{"time":1614702822167,"calc":"9 * 8 = 72"},{"time":1614702819046,"calc":"5 * 5 = 25"},{"time":1614702808289,"calc":" ( 25 * 259 )  ( .2 * -.02 )  = -25.900000000000002"},{"time":1614702672135,"calc":"8 * 86 )  )  = ERROR: CLOSED PARENTHESES BEFORE OPENING"},{"time":1614702664198,"calc":"5 * 558 (  = ERROR: UNCLOSED PARENTHESES"}]
