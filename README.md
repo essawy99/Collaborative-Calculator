@@ -11,6 +11,10 @@ calculations click the red clear button on the right. This will clear calculatio
 
 If the app is not used for a while the server will shut down to save resources. However, all data is saved to a file system and is reloaded when the server is brought back up. Going on the website will automatically wake up the server.
 
+App can be accessed at : https://laser-quiver-adapter.glitch.me
+
+Codebase is at : https://github.com/essawy99/Collaborative-Calculator
+
 For any questions please email essaw007@umn.edu.
 
 Enjoy!
